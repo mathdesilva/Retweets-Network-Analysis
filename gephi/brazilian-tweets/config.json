@@ -1,0 +1,53 @@
+{
+  "type": "network",
+  "version": "1.0",
+  "data": "data.json",
+  "logo": {
+    "file": "",
+    "link": "",
+    "text": "Matheus de Andrade e Pedro Henrique"
+  },
+  "text": {
+    "more": "Check the Github repository: https://github.com/matheusmas132/Retweets-Network-Analysis",
+    "intro": "Brazilian tweets from Sep 05, 2021, about the Brazil v Argentina abandoned game.",
+    "title": "Brazilian Retweets"
+  },
+  "legend": {
+    "edgeLabel": "Was Retweeted In",
+    "colorLabel": "Weakly Connection",
+    "nodeLabel": "Tweets"
+  },
+  "features": {
+    "search": true,
+    "groupSelectorAttribute": "Component ID",
+    "hoverBehavior": "dim"
+  },
+  "informationPanel": {
+    "groupByEdgeDirection": false,
+    "imageAttribute": "Out-Degree"
+  },
+  "sigma": {
+    "drawingProperties": {
+      "defaultEdgeType": "curve",
+      "defaultHoverLabelBGColor": "#002147",
+      "defaultLabelBGColor": "#ddd",
+      "activeFontStyle": "bold",
+      "defaultLabelColor": "#000",
+      "labelThreshold": 10,
+      "defaultLabelHoverColor": "#fff",
+      "fontStyle": "bold",
+      "hoverFontStyle": "bold",
+      "defaultLabelSize": 14
+    },
+    "graphProperties": {
+      "maxEdgeSize": 0.5,
+      "minEdgeSize": 0.2,
+      "minNodeSize": 1,
+      "maxNodeSize": 7
+    },
+    "mouseProperties": {
+      "maxRatio": 20,
+      "minRatio": 0.75
+    }
+  }
+}
